@@ -29,7 +29,6 @@ body {
 /* Container geral */
 
 div#container {
-    border: 1px solid black;
     width: 390px;
     margin: auto;
 }
