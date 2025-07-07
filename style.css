@@ -17,7 +17,6 @@
 }
 
 body {
-    box-shadow: 0px 7px 9px var(--cor-titulo);
     background-image: url(imagens/background2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -161,7 +160,6 @@ ul.valoradicional {
     padding-right: 50px;
     text-align: center;
     columns: 2;
-
 }
 
 /* Rodapé */
