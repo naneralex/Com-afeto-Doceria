@@ -116,7 +116,7 @@ td > h3 {
     margin: 3px;
 }
 
-table.valores tr:nth-child(even){
+table.valores tr:nth-child(odd){
     background-color: #c26d852f;
 }
 
@@ -138,7 +138,6 @@ h2.coberturaemassa {
 /* lLsta de observações */
 
 div.lista{
-    border: 1px solid black;
     background-color: #ca4f7246;
     color: var(--cor-titulo);
     border-radius: 10px;
@@ -149,6 +148,9 @@ div.lista{
     font-size: 0.9em;
 }
 
+div.lista li {
+    padding-right: 5px;
+}
 /* Adicional por camada */
 
 div > h2.adicional {
@@ -173,6 +175,7 @@ footer {
     margin-bottom: 5px;
     text-align: center;
     font-size: 1em;
+    margin: auto;
 }
 
 footer a{
@@ -180,5 +183,41 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
+
+/* Página 2 */
+
+table.caseirinho th{
+    background-color: var(--cor-texto);
+    color: white;
+    font-weight: normal;
+}
+
+td.largura {
+    width: 380px;
+}
+
+/* Caseirinho com Cobertura */
+
+h1.caseirinhocomcobertura {
+    font-family: 'Mistrully', sans-serif;
+    font-weight: normal;
+    color: #b92751;
+    text-align: center;
+    margin: 7px;
+    font-size: 45px;
+}
+
+table.recheiostradicionais tr:nth-child(odd) {
+    background-color: #c26d852f;
+}
+
+table.recheiostradicionais td{
+    text-align: left;
+}
+
+
+
+
 
 
