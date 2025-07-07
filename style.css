@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@import url('https://fonts.cdnfonts.com/css/mistrully');
+
+
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
+
+
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif
+    --fonte-titulo: 'Mistrully', sans-serif;
+    --fonte-texto: 'Glacial Indifference', sans-serif;
+
+    --cor-titulo: #b92751;
+    --cor-texto: #ca4f72;
+}
+
+body {
+    box-shadow: 0px 7px 9px var(--cor-titulo);
+    background-image: url(imagens/background2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    display: block;
+    margin: auto;
+    background-size: 500px;
+}
+
+/* Container geral */
+
+div#container {
+    width: 500px;
+    margin: auto;
+}
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+header > img {
+    padding: 20px 0px 10px 0px;
+    width: 120px;
+    height: 120px;    
+}
+
+/* Links */
+
+nav {
+    margin: auto;
+    width: 470px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+nav a {
+    background-color: #ca4f7234;
+    font-family: var(--fonte-texto);
+    color: #ca4f72;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: #ca3e66;
+    color: white;
+}
+
+/* Totas */
+
+main > h1 {
+    font-family: 'Mistrully', sans-serif;
+    font-weight: normal;
+    color: #b92751;
+    text-align: center;
+    margin: 7px;
+    font-size: 45px;
+}
+
+/* Dados importantes */
+
+h2, h3 {
+    margin: 2px;
+    text-align: center;
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+}
+
+/* Tabela */
+
+table {
+    font-family: var(--fonte-texto);
+    margin: auto;
+    margin-top: 10px;
+   
+    width: 480px;
+}
+
+table th, td {
+    color: var(--cor-texto);
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+    font-size: 1.2em;
+}
+
+td > h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 3px;
+}
+
+table.valores tr:nth-child(even){
+    background-color: #c26d852f;
+}
+
+/* Monte sua torta */
+
+table p {
+    font-size: 0.6em;
+    margin: 0px;
+}
+
+table.coberturaemassa h2 {
+    font-size: 1em;
+}
+
+/* lLsta de observações */
+
+div.lista{
+    background-color: #ca4f7246;
+    color: var(--cor-titulo);
+    border-radius: 10px;
+    width: 450px;
+    margin: auto;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Adicional por camada */
+
+div > h2.adicional {
+    font-size: 1em;
+}
+
+ul.valoradicional {
+    width: 400px;
+    color: var(--cor-texto);
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    padding-right: 50px;
+    text-align: center;
+    columns: 2;
+
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--cor-titulo);
+    font-family: var(--fonte-texto);
+    color: white;
+    height: 20px;
+    width: 500px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer a{
+    font-family: var(--fonte-texto);
+    color: white;
+    text-decoration: none;
+}
+
+
