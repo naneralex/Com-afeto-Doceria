@@ -21,8 +21,8 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: contain;
-    width: 380px;
+    display: block;
+    background-size: 380px;
     margin: auto;
 }
 
@@ -39,11 +39,12 @@ header > img {
 /* Links de navegação de páginas */
 
 nav {
-    width: 370px;
+    width: 380px;
     text-align: center;
+    margin: auto;
     height: 22px;
     padding-top: 5px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 nav a {
@@ -118,8 +119,11 @@ ul {
 
 li {
     font-family: var(--fonte-texto);
+    font-size: 15px;
     color: var(--cor-titulo);
     margin: 5px 5px 5px 0px;
+    width: 360px;
+    margin: auto;
 }
 
 /* COnfigurações de rodapé */
