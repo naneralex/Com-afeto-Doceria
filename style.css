@@ -47,6 +47,15 @@ nav {
     font-size: 12px;
 }
 
+nav.menor {
+    width: 380px;
+    text-align: center;
+    margin: auto;
+    height: 22px;
+    padding-top: 5px;
+    font-size: 11px;
+}
+
 nav a {
     background-color: var(--cor-background);
     border-radius: 3px;
