@@ -22,7 +22,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: contain;
-    max-width: 500px;
+    max-width: 390px;
     margin: auto;
 }
 
@@ -39,7 +39,7 @@ header > img {
 /* Links de navegação de páginas */
 
 nav {
-    min-width: 470px;
+    min-width: 380px;
     text-align: center;
     margin: 8px;
     height: 22px;
