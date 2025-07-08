@@ -73,6 +73,29 @@ nav > a:hover {
     color: white;
 }
 
+div.importante {
+    margin: auto;
+    width: 380px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+div.importante a {
+    background-color: #ca4f7234;
+    font-family: var(--fonte-texto);
+    color: #ca4f72;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px;
+}
+
+div.importante > a:hover {
+    background-color: #ca3e66;
+    color: white;
+}
+
 /* Totas */
 
 main > h1 {
@@ -161,7 +184,7 @@ table.valoradicional {
     width: 380px;
     color: var(--cor-texto);
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 /* Rodapé */
@@ -188,7 +211,7 @@ footer a{
 /* Página 2 */
 
 table.caseirinho th{
-    background-color: var(--cor-texto);
+    background-color: #ca4f727e;
     color: white;
     font-weight: normal;
 }
@@ -216,6 +239,80 @@ table.recheiostradicionais td{
     text-align: left;
 }
 
+/* Página 3 */
+
+table.cupcake th {
+    background-color: #ca4f727e;
+    color: white;
+    font-weight: normal;
+}
+
+table.cupcake td {
+    color: var(--cor-texto);
+}
+
+section > ol.observacao {
+    background-color: #ca4f7246;
+    color: var(--cor-titulo);
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+/* Página 4 */
+
+table.docinhos th {
+    background-color: #ca4f727e;
+    color: white;
+    font-weight: normal;
+}
+
+table.docinhos td {
+    color: var(--cor-texto);
+}
+
+section > ol.observacao-doces {
+    background-color: #ca4f7246;
+    color: var(--cor-titulo);
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    height: 120px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Página 5 */
+
+table.bens th {
+    background-color: #ca4f727e;
+    color: white;
+    font-weight: normal;
+}
+
+table.bens td {
+    color: var(--cor-texto);
+}
+
+section > ol.observacao-bens {
+    background-color: #ca4f7246;
+    color: var(--cor-titulo);
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    height: 160px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Informações gerais */
+
+main.informacoes p {
+    text-align: center;
+    color: var(--cor-texto);
+    font-family: var(--fonte-texto);
+}
 
 
 
