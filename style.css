@@ -22,7 +22,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: contain;
-    max-width: 390px;
+    width: 380px;
     margin: auto;
 }
 
@@ -39,9 +39,8 @@ header > img {
 /* Links de navegação de páginas */
 
 nav {
-    width: 380px;
+    width: 370px;
     text-align: center;
-    margin: 5px;
     height: 22px;
     padding-top: 5px;
     font-size: 13px;
@@ -82,8 +81,8 @@ h3, p {
 
 /* Configurações de tabela */
 
-table.tamnho380px {
-    width: 380px;
+table.tamnho370px {
+    width: 370px;
 }
 
 table td.tamanho70px {
@@ -114,7 +113,7 @@ ul {
     background-color: var(--cor-background);
     border-radius: 5px;
     margin: auto;
-    width: 380px;
+    width: 370px;
 }
 
 li {
